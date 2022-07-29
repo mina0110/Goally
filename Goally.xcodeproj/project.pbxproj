@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC7B973828929B1000D0C4F4 /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973728929B1000D0C4F4 /* NavigationBarColor.swift */; };
+		DC7B97402892B5E200D0C4F4 /* Goals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973A2892B5E200D0C4F4 /* Goals+CoreDataClass.swift */; };
+		DC7B97412892B5E200D0C4F4 /* Goals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973B2892B5E200D0C4F4 /* Goals+CoreDataProperties.swift */; };
+		DC7B97422892B5E200D0C4F4 /* Tasks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973C2892B5E200D0C4F4 /* Tasks+CoreDataClass.swift */; };
+		DC7B97432892B5E200D0C4F4 /* Tasks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973D2892B5E200D0C4F4 /* Tasks+CoreDataProperties.swift */; };
+		DC7B97442892B5E200D0C4F4 /* Achievements+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973E2892B5E200D0C4F4 /* Achievements+CoreDataClass.swift */; };
+		DC7B97452892B5E200D0C4F4 /* Achievements+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B973F2892B5E200D0C4F4 /* Achievements+CoreDataProperties.swift */; };
+		DC84DD8428918D790065BFE0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DD8328918D790065BFE0 /* CoreDataManager.swift */; };
+		DC84DD8628918EDF0065BFE0 /* GoalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DD8528918EDF0065BFE0 /* GoalListViewModel.swift */; };
+		DC84DD882891AA5F0065BFE0 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DD872891AA5F0065BFE0 /* EmojiTextField.swift */; };
+		DC84DD8A2891AAC20065BFE0 /* UIEmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DD892891AAC20065BFE0 /* UIEmojiTextField.swift */; };
+		DC84DDC32891D30F0065BFE0 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DDC22891D30F0065BFE0 /* TaskListViewModel.swift */; };
+		DC84DDC528923A3C0065BFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84DDC428923A3C0065BFE0 /* AppDelegate.swift */; };
+		DC8A022028905B5200D25548 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A021F28905B5200D25548 /* UIScreen.swift */; };
+		DC8A022328906E1C00D25548 /* SwipeableView in Frameworks */ = {isa = PBXBuildFile; productRef = DC8A022228906E1C00D25548 /* SwipeableView */; };
+		DC8A02272890827600D25548 /* EditGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A02262890827600D25548 /* EditGoalView.swift */; };
+		DC8A02292890828000D25548 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A02282890828000D25548 /* EditTaskView.swift */; };
+		DC8A022B2890879400D25548 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A022A2890879400D25548 /* Binding.swift */; };
+		DC8A0230289096F200D25548 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A022F289096F200D25548 /* NotificationManager.swift */; };
+		DC8A02322890A06400D25548 /* AchievementPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A02312890A06400D25548 /* AchievementPopUpView.swift */; };
+		DCB24DA52889B1C600B5DAAA /* NanoChallenge2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DA42889B1C600B5DAAA /* NanoChallenge2App.swift */; };
+		DCB24DA72889B1C600B5DAAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DA62889B1C600B5DAAA /* ContentView.swift */; };
+		DCB24DA92889B1C700B5DAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB24DA82889B1C700B5DAAA /* Assets.xcassets */; };
+		DCB24DAC2889B1C700B5DAAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB24DAB2889B1C700B5DAAA /* Preview Assets.xcassets */; };
+		DCB24DAE2889B1C700B5DAAA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DAD2889B1C700B5DAAA /* Persistence.swift */; };
+		DCB24DB12889B1C700B5DAAA /* NanoChallenge2CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DAF2889B1C700B5DAAA /* NanoChallenge2CoreDataModel.xcdatamodeld */; };
+		DCB24DBA2889B1FD00B5DAAA /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DB92889B1FD00B5DAAA /* GoalView.swift */; };
+		DCB24DBC2889C7E300B5DAAA /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DBB2889C7E300B5DAAA /* AchievementView.swift */; };
+		DCB24DBE288A42E600B5DAAA /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DBD288A42E600B5DAAA /* GoalDetailView.swift */; };
+		DCB24DC0288A454C00B5DAAA /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DBF288A454C00B5DAAA /* AddGoalView.swift */; };
+		DCB24DC4288B043E00B5DAAA /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DC3288B043E00B5DAAA /* AddTaskView.swift */; };
+		DCB24DC6288BE16400B5DAAA /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DC5288BE16400B5DAAA /* CircularProgressBarView.swift */; };
+		DCB24DCB288C068100B5DAAA /* GoalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DCA288C068000B5DAAA /* GoalCardView.swift */; };
+		DCB24DD6288C6FA700B5DAAA /* AchievementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB24DD5288C6FA700B5DAAA /* AchievementCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC7B973728929B1000D0C4F4 /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
+		DC7B973A2892B5E200D0C4F4 /* Goals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goals+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC7B973B2892B5E200D0C4F4 /* Goals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goals+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC7B973C2892B5E200D0C4F4 /* Tasks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC7B973D2892B5E200D0C4F4 /* Tasks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC7B973E2892B5E200D0C4F4 /* Achievements+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Achievements+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC7B973F2892B5E200D0C4F4 /* Achievements+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Achievements+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC84DD8328918D790065BFE0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DC84DD8528918EDF0065BFE0 /* GoalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalListViewModel.swift; sourceTree = "<group>"; };
+		DC84DD872891AA5F0065BFE0 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		DC84DD892891AAC20065BFE0 /* UIEmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEmojiTextField.swift; sourceTree = "<group>"; };
+		DC84DDC22891D30F0065BFE0 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		DC84DDC428923A3C0065BFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC8A021F28905B5200D25548 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		DC8A02262890827600D25548 /* EditGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalView.swift; sourceTree = "<group>"; };
+		DC8A02282890828000D25548 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		DC8A022A2890879400D25548 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		DC8A022F289096F200D25548 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DC8A02312890A06400D25548 /* AchievementPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementPopUpView.swift; sourceTree = "<group>"; };
+		DCB24DA12889B1C600B5DAAA /* Goally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB24DA42889B1C600B5DAAA /* NanoChallenge2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge2App.swift; sourceTree = "<group>"; };
+		DCB24DA62889B1C600B5DAAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCB24DA82889B1C700B5DAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB24DAB2889B1C700B5DAAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCB24DAD2889B1C700B5DAAA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DCB24DB02889B1C700B5DAAA /* NanoChallenge2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NanoChallenge2.xcdatamodel; sourceTree = "<group>"; };
+		DCB24DB92889B1FD00B5DAAA /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		DCB24DBB2889C7E300B5DAAA /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		DCB24DBD288A42E600B5DAAA /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+		DCB24DBF288A454C00B5DAAA /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		DCB24DC3288B043E00B5DAAA /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		DCB24DC5288BE16400B5DAAA /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		DCB24DCA288C068000B5DAAA /* GoalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCardView.swift; sourceTree = "<group>"; };
+		DCB24DD5288C6FA700B5DAAA /* AchievementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB24D9E2889B1C600B5DAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A022328906E1C00D25548 /* SwipeableView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7B973928929BAF00D0C4F4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DC84DDC428923A3C0065BFE0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DC8A021D2890195100D25548 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B973928929BAF00D0C4F4 /* AppDelegate */,
+				DC8A022E289096E100D25548 /* Helper */,
+				DC8A021E2890196B00D25548 /* Extension */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DC8A021E2890196B00D25548 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A022A2890879400D25548 /* Binding.swift */,
+				DC8A021F28905B5200D25548 /* UIScreen.swift */,
+				DC84DD892891AAC20065BFE0 /* UIEmojiTextField.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DC8A022E289096E100D25548 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A022F289096F200D25548 /* NotificationManager.swift */,
+				DC84DD8328918D790065BFE0 /* CoreDataManager.swift */,
+				DC7B973728929B1000D0C4F4 /* NavigationBarColor.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DCB24D982889B1C600B5DAAA = {
+			isa = PBXGroup;
+			children = (
+				DCB24DA32889B1C600B5DAAA /* Goally */,
+				DCB24DA22889B1C600B5DAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB24DA22889B1C600B5DAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DA12889B1C600B5DAAA /* Goally.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB24DA32889B1C600B5DAAA /* Goally */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DD0288C172D00B5DAAA /* Themes */,
+				DC8A021D2890195100D25548 /* Utilities */,
+				DCB24DCD288C0C4700B5DAAA /* ViewModel */,
+				DCB24DCC288C0C4000B5DAAA /* Models */,
+				DCB24DC7288BE18300B5DAAA /* Views */,
+				DCB24DA42889B1C600B5DAAA /* NanoChallenge2App.swift */,
+				DCB24DA82889B1C700B5DAAA /* Assets.xcassets */,
+				DCB24DAD2889B1C700B5DAAA /* Persistence.swift */,
+				DCB24DAF2889B1C700B5DAAA /* NanoChallenge2CoreDataModel.xcdatamodeld */,
+				DCB24DAA2889B1C700B5DAAA /* Preview Content */,
+			);
+			path = Goally;
+			sourceTree = "<group>";
+		};
+		DCB24DAA2889B1C700B5DAAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DAB2889B1C700B5DAAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCB24DC7288BE18300B5DAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DA62889B1C600B5DAAA /* ContentView.swift */,
+				DCB24DB92889B1FD00B5DAAA /* GoalView.swift */,
+				DCB24DBB2889C7E300B5DAAA /* AchievementView.swift */,
+				DCB24DBD288A42E600B5DAAA /* GoalDetailView.swift */,
+				DCB24DBF288A454C00B5DAAA /* AddGoalView.swift */,
+				DCB24DC3288B043E00B5DAAA /* AddTaskView.swift */,
+				DC8A02262890827600D25548 /* EditGoalView.swift */,
+				DC8A02282890828000D25548 /* EditTaskView.swift */,
+				DC8A02312890A06400D25548 /* AchievementPopUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCB24DCC288C0C4000B5DAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24E63288F03AF00B5DAAA /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCB24DCD288C0C4700B5DAAA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC84DD8528918EDF0065BFE0 /* GoalListViewModel.swift */,
+				DC84DDC22891D30F0065BFE0 /* TaskListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DCB24DD0288C172D00B5DAAA /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DD4288C676300B5DAAA /* UI */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		DCB24DD4288C676300B5DAAA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DCB24DCA288C068000B5DAAA /* GoalCardView.swift */,
+				DCB24DC5288BE16400B5DAAA /* CircularProgressBarView.swift */,
+				DCB24DD5288C6FA700B5DAAA /* AchievementCellView.swift */,
+				DC84DD872891AA5F0065BFE0 /* EmojiTextField.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DCB24E63288F03AF00B5DAAA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B973A2892B5E200D0C4F4 /* Goals+CoreDataClass.swift */,
+				DC7B973B2892B5E200D0C4F4 /* Goals+CoreDataProperties.swift */,
+				DC7B973C2892B5E200D0C4F4 /* Tasks+CoreDataClass.swift */,
+				DC7B973D2892B5E200D0C4F4 /* Tasks+CoreDataProperties.swift */,
+				DC7B973E2892B5E200D0C4F4 /* Achievements+CoreDataClass.swift */,
+				DC7B973F2892B5E200D0C4F4 /* Achievements+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB24DA02889B1C600B5DAAA /* Goally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB24DB42889B1C700B5DAAA /* Build configuration list for PBXNativeTarget "Goally" */;
+			buildPhases = (
+				DCB24D9D2889B1C600B5DAAA /* Sources */,
+				DCB24D9E2889B1C600B5DAAA /* Frameworks */,
+				DCB24D9F2889B1C600B5DAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goally;
+			packageProductDependencies = (
+				DC8A022228906E1C00D25548 /* SwipeableView */,
+			);
+			productName = NanoChallenge2;
+			productReference = DCB24DA12889B1C600B5DAAA /* Goally.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB24D992889B1C600B5DAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DCB24DA02889B1C600B5DAAA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DCB24D9C2889B1C600B5DAAA /* Build configuration list for PBXProject "Goally" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB24D982889B1C600B5DAAA;
+			packageReferences = (
+				DC8A022128906E1C00D25548 /* XCRemoteSwiftPackageReference "Swipeable-View" */,
+			);
+			productRefGroup = DCB24DA22889B1C600B5DAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB24DA02889B1C600B5DAAA /* Goally */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB24D9F2889B1C600B5DAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB24DAC2889B1C700B5DAAA /* Preview Assets.xcassets in Resources */,
+				DCB24DA92889B1C700B5DAAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB24D9D2889B1C600B5DAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B97442892B5E200D0C4F4 /* Achievements+CoreDataClass.swift in Sources */,
+				DC84DD8A2891AAC20065BFE0 /* UIEmojiTextField.swift in Sources */,
+				DCB24DD6288C6FA700B5DAAA /* AchievementCellView.swift in Sources */,
+				DC7B97422892B5E200D0C4F4 /* Tasks+CoreDataClass.swift in Sources */,
+				DCB24DB12889B1C700B5DAAA /* NanoChallenge2CoreDataModel.xcdatamodeld in Sources */,
+				DCB24DCB288C068100B5DAAA /* GoalCardView.swift in Sources */,
+				DC8A02322890A06400D25548 /* AchievementPopUpView.swift in Sources */,
+				DCB24DBE288A42E600B5DAAA /* GoalDetailView.swift in Sources */,
+				DC7B97402892B5E200D0C4F4 /* Goals+CoreDataClass.swift in Sources */,
+				DC84DD8428918D790065BFE0 /* CoreDataManager.swift in Sources */,
+				DC84DD882891AA5F0065BFE0 /* EmojiTextField.swift in Sources */,
+				DC7B97432892B5E200D0C4F4 /* Tasks+CoreDataProperties.swift in Sources */,
+				DC7B97412892B5E200D0C4F4 /* Goals+CoreDataProperties.swift in Sources */,
+				DC8A0230289096F200D25548 /* NotificationManager.swift in Sources */,
+				DCB24DC4288B043E00B5DAAA /* AddTaskView.swift in Sources */,
+				DCB24DAE2889B1C700B5DAAA /* Persistence.swift in Sources */,
+				DCB24DC6288BE16400B5DAAA /* CircularProgressBarView.swift in Sources */,
+				DC84DDC32891D30F0065BFE0 /* TaskListViewModel.swift in Sources */,
+				DC84DD8628918EDF0065BFE0 /* GoalListViewModel.swift in Sources */,
+				DCB24DA72889B1C600B5DAAA /* ContentView.swift in Sources */,
+				DCB24DC0288A454C00B5DAAA /* AddGoalView.swift in Sources */,
+				DCB24DBA2889B1FD00B5DAAA /* GoalView.swift in Sources */,
+				DC84DDC528923A3C0065BFE0 /* AppDelegate.swift in Sources */,
+				DC7B973828929B1000D0C4F4 /* NavigationBarColor.swift in Sources */,
+				DC8A02292890828000D25548 /* EditTaskView.swift in Sources */,
+				DC8A022B2890879400D25548 /* Binding.swift in Sources */,
+				DCB24DBC2889C7E300B5DAAA /* AchievementView.swift in Sources */,
+				DC7B97452892B5E200D0C4F4 /* Achievements+CoreDataProperties.swift in Sources */,
+				DC8A022028905B5200D25548 /* UIScreen.swift in Sources */,
+				DCB24DA52889B1C600B5DAAA /* NanoChallenge2App.swift in Sources */,
+				DC8A02272890827600D25548 /* EditGoalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCB24DB22889B1C700B5DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB24DB32889B1C700B5DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB24DB52889B1C700B5DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Goally/Preview Content\"";
+				DEVELOPMENT_TEAM = SS9M8F83UR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minawati.Goally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB24DB62889B1C700B5DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Goally/Preview Content\"";
+				DEVELOPMENT_TEAM = SS9M8F83UR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minawati.Goally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB24D9C2889B1C600B5DAAA /* Build configuration list for PBXProject "Goally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB24DB22889B1C700B5DAAA /* Debug */,
+				DCB24DB32889B1C700B5DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB24DB42889B1C700B5DAAA /* Build configuration list for PBXNativeTarget "Goally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB24DB52889B1C700B5DAAA /* Debug */,
+				DCB24DB62889B1C700B5DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC8A022128906E1C00D25548 /* XCRemoteSwiftPackageReference "Swipeable-View" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mroffmix/Swipeable-View/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC8A022228906E1C00D25548 /* SwipeableView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC8A022128906E1C00D25548 /* XCRemoteSwiftPackageReference "Swipeable-View" */;
+			productName = SwipeableView;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DCB24DAF2889B1C700B5DAAA /* NanoChallenge2CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCB24DB02889B1C700B5DAAA /* NanoChallenge2.xcdatamodel */,
+			);
+			currentVersion = DCB24DB02889B1C700B5DAAA /* NanoChallenge2.xcdatamodel */;
+			path = NanoChallenge2CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCB24D992889B1C600B5DAAA /* Project object */;
+}
